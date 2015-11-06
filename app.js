@@ -2390,7 +2390,7 @@ var Footer = React.createClass({
           marginTop: '200px'
         }
       },
-      'Quantum Dice 2015'
+      'Space Dice 2015'
     );
   }
 });
