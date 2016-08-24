@@ -33,7 +33,8 @@ jQuery.scrollSpeed(100, 800);
 ////////////////////////////////////////////////////////////
 // You shouldn't have to edit anything below this line
 ////////////////////////////////////////////////////////////
-
+var worldStore = new Store('world', {
+  news_info: 'Welcome to Bit-Exo',
 // Validate the configured house edge
 (function() {
   var errString;
