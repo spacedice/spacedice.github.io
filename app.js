@@ -20,7 +20,7 @@ var config = {
   // - Configure the house edge (default is 1%)
   //   Must be between 0.0 (0%) and 1.0 (100%)
   
- 
+  news_info: 'Welcome to Bit-Exo',
   house_edge: tmpHE,
   chat_buffer_size: 250,
   // - The amount of bets to show on screen in each tab
@@ -33,8 +33,7 @@ jQuery.scrollSpeed(100, 800);
 ////////////////////////////////////////////////////////////
 // You shouldn't have to edit anything below this line
 ////////////////////////////////////////////////////////////
-var worldStore = new Store('world', {
-  news_info: 'Welcome to Bit-Exo',
+
 // Validate the configured house edge
 (function() {
   var errString;
